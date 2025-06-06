@@ -1,0 +1,5 @@
+# requirements.txt
+torch>=1.13.0            # GPU compute (likely already installed with webui)
+transformers>=4.30.0     # For T5 model and tokenizer
+safetensors             # For loading safetensors weights
+huggingface_hub         # To download files from HF

@@ -1,0 +1,19 @@
+// config.json
+{
+  "name": "T5XXL-Unchained Integration",
+  "description": "Replace default CLIP tokenizer/encoder with T5XXL-Unchained for prompt encoding:contentReference[oaicite:3]{index=3}",
+  "author": "Extension Author",
+  "version": "1.0",
+  "settings": {
+    "enable": {
+      "type": "boolean",
+      "default": true,
+      "description": "Enable T5XXL-Unchained text encoder override"
+    },
+    "repo_id": {
+      "type": "string",
+      "default": "Kaoru8/T5XXL-Unchained",
+      "description": "HuggingFace model ID for T5XXL-Unchained (should include tokenizer.json and config)"
+    }
+  }
+}
